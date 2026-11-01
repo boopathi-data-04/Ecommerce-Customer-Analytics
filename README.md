@@ -1,63 +1,36 @@
-# Ecommerce-Customer-Analytics 🛒📊
+# Ecommerce Customer Analytics - Capstone Project
 
-> Capstone Project - End-to-End Customer Behavior & Sales Analysis
+## 📊 Project Overview
+End-to-end analysis of E-commerce customer data to understand sales trends, customer behavior, and segmentation using RFM Analysis.
 
-## 📌 Project Overview
-This project analyzes E-commerce customer data to understand purchasing behavior, customer segmentation, churn analysis, and revenue trends.
-
-## 🎯 Business Objectives
-- Analyze monthly & yearly sales trends
-- Identify High-Value Customers (VIP)
-- RFM Segmentation (Recency, Frequency, Monetary)
-- City-wise & Age-group Revenue Analysis
-- Churn Prediction & Repeat Purchase Rate
-
-## 📂 Dataset
-- Customers Table: customer_id, age, city, gender
-- Orders Table: order_id, customer_id, order_date, order_value, payment_method
-- Records: 10,000+ orders
-
-## 🛠️ Tech Stack
-- SQL: MySQL - 10 Advanced Analytical Queries
-- Python: Pandas, Matplotlib, Seaborn - Data Cleaning & EDA
-- Power BI: Interactive Dashboard with KPIs
-- Tools: VS Code, GitHub
+**Tools Used:** Python (Pandas, Matplotlib, Seaborn), SQL, Power BI, GitHub
 
 ## 📁 Project Structure
-- data/ - raw & cleaned data
-- notebooks/ - Python cleaning & EDA
-- sql/ - Ecommerce_analysis.sql (10 Queries)
-- powerbi/ - Dashboard .pbix file
-- report/ - dashboard screenshots
-- presentation/ - PPT
+- `notebooks/`
+    - `01_Data_cleaning.py` - Data cleaning & preprocessing
+    - `02_EDA.py` - Exploratory Data Analysis (Sales Trend, City Revenue, Age Distribution)
+    - `03_RFM_Analysis.py` - RFM Segmentation (Champions, Loyal, At Risk, Lost)
+- `sql/`
+    - `Ecommerce_analysis.sql` - Basic business queries
+    - `rmf_queries.sql` - Advanced RFM queries
+- `powerbi/` - Power BI Dashboard
+- `report/` - Final Report & Screenshots
+- `data/` - Raw and Processed Data
 
-## 🔍 Key SQL Analysis
-1. Total Customers, Orders & Revenue
-2. Monthly Sales Trend
-3. Top 10 High-Value Customers
-4. RFM Customer Segmentation
-5. City-wise Revenue
-6. Payment Method Performance
-7. Churn Analysis
-8. Yearly Growth Rate
-9. Repeat Purchase Rate
-10. Age Group Analysis
+## 🔍 Key Insights
+1. **Monthly Sales Trend:** Seasonal peak identified
+2. **Top Cities:** Major revenue from Top 3 cities
+3. **Customer Segmentation:** 5 segments created via RFM Model
+4. **Payment Methods:** UPI/Credit Card dominance
 
-## 📊 Power BI Dashboard
-- KPI: Total Revenue, Customers, AOV
-- Monthly Revenue Trend
-- City-wise Revenue Map
-- RFM Segmentation Chart
-- Churn Status
+## 🚀 How to Run
+1. Clone repo
+2. Install requirements: `pip install pandas matplotlib seaborn`
+3. Run notebooks in order 01 -> 02 -> 03
+4. Open Power BI file for dashboard
 
-## 🚀 Key Insights
-- Top 10 customers contribute 30% revenue
-- Repeat purchase rate: 45%
-- Most preferred payment: UPI / Credit Card
-
-## 👨‍💻 Author
-**Boopathi** - Aspiring Data Analyst
+## 👤 Author
+**Boopathi S** - Data Analyst Aspirant
 GitHub: @boopathi-data-04
 
-## 📜 License
-Capstone Project 2025 - Learning Purpose
+## 📅 Completed: Oct 2026
